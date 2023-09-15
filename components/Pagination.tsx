@@ -35,17 +35,17 @@ const Pagination = ({ page, pageCount, redirectUrl = '/' }: IPropType) => {
         router.push(`${redirectUrl}?${queryString}`);
     };
     return (
-        <div className="flex justify-center mt-24">
+        <div className="flex justify-center">
             <button
                 onClick={() => handlePaginate(-1)}
-                className={`${'bg-primary py-2 px-4 text-white w-24 rounded'} ${
+                className={`${'bg-blue-500 py-2 px-4 text-white w-24 rounded'} ${
                     isPrevDisabled() ? 'disabled' : ''
                 }`}>
                 Previous
             </button>
             <button
                 onClick={() => handlePaginate(1)}
-                className={`${'bg-primary py-2 px-4 text-white w-24 rounded ml-4'} ${
+                className={`${'bg-blue-500 py-2 px-4 text-white w-24 rounded ml-4'} ${
                     isNextDisabled() ? 'disabled' : ''
                 }`}>
                 Next

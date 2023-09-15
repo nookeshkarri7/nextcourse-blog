@@ -20,11 +20,11 @@
     }
 
     .single-article pre {
-        @apply text-green-500 bg-gray-100 my-6 p-2;
+        @apply text-blue-500 bg-gray-100 my-6 p-2;
     }
 
     .single-article blockquote {
-        @apply my-4 p-4 border-l-4 bg-gray-100 text-gray-500 border-primary;
+        @apply my-4 p-4 border-l-4 bg-gray-100 text-gray-500 border-blue-500;
     }
 
 }
